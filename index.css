@@ -1,3 +1,63 @@
 .div2 {
     position: relative;
   }
+  .header {
+    background: url('.gitignore/bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+  }
+  .header .container {
+    position: relative;
+    top: 200px;
+  }
+  .header h1 {
+    color: #fff;
+    line-height: 100px;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+  }
+  .header p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+  @media (min-width:850px) {
+    .header h1 {
+      font-size: 120px;
+    }
+}
+.icon1 {
+    cursor: pointer;
+    color: #fff;
+  
+  }
+  .div1 {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+  }
+  
+  .div2 {
+    position: relative;
+  }
+  i:hover {
+    border-style: double;
+    border: 3px solid;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  li:hover {
+    background-color: white;
+    border-radius: 7px;
+  }
+  li {
+    padding: 10px;
+  }
