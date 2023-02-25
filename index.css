@@ -1,6 +1,6 @@
-.div2 {
-    position: relative;
-  }
+html {
+  scroll-behavior: smooth;
+}
   .header {
     background: url('.gitignore/bg.jpg') no-repeat center center;
     background-size: cover;
@@ -36,17 +36,6 @@
 .icon1 {
     cursor: pointer;
     color: #fff;
-  
-  }
-  .div1 {
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translateX(-50%);
-  }
-  
-  .div2 {
-    position: relative;
   }
   i:hover {
     border-style: double;
@@ -83,4 +72,35 @@
    
   ul {
     list-style-type: none;
+  }
+  .div1 {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+  } 
+  .div2 {
+    position: relative;
+  }
+  .div3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .div4 {
+    position: absolute;
+    right: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .div5 {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #bottom {
+    background-color: #2f3640;
+    height: 100px;
   }
