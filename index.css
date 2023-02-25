@@ -61,3 +61,26 @@
   li {
     padding: 10px;
   }
+  #skills {
+    color: #333;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
+  #skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+  }
+  li {
+    padding: 10px;
+  }
+   
+  ul {
+    list-style-type: none;
+  }
