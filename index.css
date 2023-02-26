@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
   .header {
-    background: url('local-Files/bg.jpg') no-repeat center center;
+    background: url('bg.jpg') no-repeat center center;
     background-size: cover;
     height: 800px;
     text-align: center;
